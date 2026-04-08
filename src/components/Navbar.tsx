@@ -45,13 +45,11 @@ export function Navbar({ onGetStarted }: NavbarProps) {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <a href="#" className="flex items-center gap-3 group" id="logo-link">
-            <div className="px-3 py-1.5 rounded-lg bg-foreground/95 shadow-[0_4px_20px_rgba(255,255,255,0.15)] transition-all duration-300 group-hover:bg-foreground">
-              <img
-                src="/logo.png"
-                alt="Zentro Agency"
-                className="h-8 w-auto object-contain transition-all duration-300 group-hover:scale-105 drop-shadow-sm"
-              />
-            </div>
+            <img
+              src="/logo.png"
+              alt="Zentro Agency"
+              className="h-8 w-auto object-contain transition-all duration-300 group-hover:scale-105 invert brightness-0 drop-shadow-[0_0_12px_rgba(255,255,255,0.3)]"
+            />
           </a>
 
           {/* Desktop Nav Links */}
